@@ -10,6 +10,7 @@
 int inputInteger(std::string prompt, int start, bool greater);
 char inputChar(std::string prompt, std::string options);
 char inputChar(std::string prompt, char yes, char no);
+void mainMenu();
 
 class N_Queens
 {

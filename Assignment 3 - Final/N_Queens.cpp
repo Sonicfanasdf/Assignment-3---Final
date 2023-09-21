@@ -229,6 +229,9 @@ void N_Queens::N_queens()
 			}
 			else if (choice == '0')
 			{
+				system("pause");
+				system("cls");
+				mainMenu();
 				break;
 			}
 			else
